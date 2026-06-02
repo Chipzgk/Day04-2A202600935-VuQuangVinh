@@ -1,0 +1,65 @@
+{
+  "order_id": "ORD-65D03638B8",
+  "status": "created",
+  "source": "desktop",
+  "customer": {
+    "name": "Quốc Việt",
+    "phone": "0988112233",
+    "email": "quocviet@example.com",
+    "shipping_address": "12 Pasteur, Hải Châu, Đà Nẵng",
+    "customer_tier": "standard"
+  },
+  "items": [
+    {
+      "product_id": "LT-002",
+      "sku": "LT-002",
+      "name": "MacBook Air M3 13",
+      "category": "laptop",
+      "unit_price": 28900000,
+      "quantity": 1,
+      "line_total": 28900000
+    },
+    {
+      "product_id": "HD-001",
+      "sku": "HD-001",
+      "name": "Sony WH-1000XM5",
+      "category": "headphone",
+      "unit_price": 7990000,
+      "quantity": 1,
+      "line_total": 7990000
+    },
+    {
+      "product_id": "SP-001",
+      "sku": "SP-001",
+      "name": "Samsung T7 Shield 2TB",
+      "category": "storage",
+      "unit_price": 4190000,
+      "quantity": 1,
+      "line_total": 4190000
+    },
+    {
+      "product_id": "ST-001",
+      "sku": "ST-001",
+      "name": "Rain Design mStand",
+      "category": "stand",
+      "unit_price": 1290000,
+      "quantity": 1,
+      "line_total": 1290000
+    }
+  ],
+  "pricing": {
+    "subtotal": 42370000,
+    "discount_rate": 0.1,
+    "discount_amount": 4237000,
+    "final_total": 38133000,
+    "currency": "VND"
+  },
+  "discount": {
+    "campaign_code": "FLASH-10",
+    "discount_rate": 0.1,
+    "customer_tier": "standard"
+  },
+  "notes": "",
+  "save_path": "artifacts/orders/ORD-65D03638B8.json",
+  "created_at": "2026-06-01"
+}

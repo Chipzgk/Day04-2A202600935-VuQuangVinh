@@ -1,0 +1,89 @@
+{
+  "order_id": "ORD-0E612B45CD",
+  "status": "confirmed",
+  "source": "llm-order-agent",
+  "currency": "VND",
+  "discount_rate": 0.1,
+  "discount_amount": 5266000,
+  "subtotal": 52660000,
+  "final_total": 47394000,
+  "campaign_code": "FLASH-10",
+  "customer_tier": "standard",
+  "save_path": "artifacts/orders/ORD-0E612B45CD.json",
+  "customer": {
+    "name": "Linh Phạm",
+    "phone": "0913002244",
+    "email": "linhpham.pm@example.com",
+    "shipping_address": "55 Nguyễn Đình Chiểu, Hai Bà Trưng, Hà Nội",
+    "customer_tier": "standard"
+  },
+  "items": [
+    {
+      "product_id": "LT-004",
+      "id": "LT-004",
+      "sku": "LEN-E14-G6",
+      "name": "Lenovo ThinkPad E14 Gen 6",
+      "category": "laptop",
+      "unit_price": 18900000,
+      "price": 18900000,
+      "quantity": 1,
+      "qty": 1,
+      "line_total": 18900000,
+      "total": 18900000
+    },
+    {
+      "product_id": "MN-004",
+      "id": "MN-004",
+      "sku": "SAM-VFS6-34",
+      "name": "Samsung ViewFinity S6 34",
+      "category": "monitor",
+      "unit_price": 12990000,
+      "price": 12990000,
+      "quantity": 2,
+      "qty": 2,
+      "line_total": 25980000,
+      "total": 25980000
+    },
+    {
+      "product_id": "KB-002",
+      "id": "KB-002",
+      "sku": "LOG-MXKEYSS",
+      "name": "Logitech MX Keys S",
+      "category": "keyboard",
+      "unit_price": 2790000,
+      "price": 2790000,
+      "quantity": 1,
+      "qty": 1,
+      "line_total": 2790000,
+      "total": 2790000
+    },
+    {
+      "product_id": "DK-001",
+      "id": "DK-001",
+      "sku": "ANK-563-DOCK",
+      "name": "Anker 563 USB-C Dock",
+      "category": "dock",
+      "unit_price": 4990000,
+      "price": 4990000,
+      "quantity": 1,
+      "qty": 1,
+      "line_total": 4990000,
+      "total": 4990000
+    }
+  ],
+  "pricing": {
+    "subtotal": 52660000,
+    "discount_rate": 0.1,
+    "discount_amount": 5266000,
+    "final_total": 47394000,
+    "currency": "VND"
+  },
+  "discount": {
+    "campaign_code": "FLASH-10",
+    "discount_rate": 0.1,
+    "customer_tier": "standard",
+    "discount_amount": 5266000
+  },
+  "notes": "",
+  "created_at": "2026-06-01"
+}

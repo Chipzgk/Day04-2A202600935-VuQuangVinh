@@ -1,0 +1,47 @@
+{
+  "order_id": "ORD-BD26BC6EB3",
+  "customer": {
+    "name": "Quốc Việt",
+    "phone": "0988112233",
+    "email": "quocviet@example.com",
+    "shipping_address": "12 Pasteur, Hải Châu, Đà Nẵng",
+    "customer_tier": "standard"
+  },
+  "items": [
+    {
+      "product_id": "LT-002",
+      "name": "MacBook Air M3 13",
+      "price": 28900000,
+      "quantity": 1
+    },
+    {
+      "product_id": "HD-001",
+      "name": "Sony WH-1000XM5",
+      "price": 7990000,
+      "quantity": 1
+    },
+    {
+      "product_id": "SP-001",
+      "name": "Samsung T7 Shield 2TB",
+      "price": 4190000,
+      "quantity": 1
+    },
+    {
+      "product_id": "ST-001",
+      "name": "Rain Design mStand",
+      "price": 1290000,
+      "quantity": 1
+    }
+  ],
+  "pricing": {
+    "subtotal": 42370000,
+    "discount_amount": 4237000,
+    "final_total": 38133000
+  },
+  "discount": {
+    "campaign_code": "FLASH-10",
+    "discount_rate": 0.1
+  },
+  "notes": "",
+  "created_at": "2026-06-01"
+}

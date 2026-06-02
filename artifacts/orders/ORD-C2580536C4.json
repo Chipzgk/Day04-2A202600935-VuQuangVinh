@@ -1,0 +1,89 @@
+{
+  "order_id": "ORD-C2580536C4",
+  "status": "confirmed",
+  "source": "llm-order-agent",
+  "currency": "VND",
+  "discount_rate": 0.1,
+  "discount_amount": 2486000,
+  "subtotal": 24860000,
+  "final_total": 22374000,
+  "campaign_code": "FLASH-10",
+  "customer_tier": "standard",
+  "save_path": "artifacts/orders/ORD-C2580536C4.json",
+  "customer": {
+    "name": "Phạm Thu Trang",
+    "phone": "0904567812",
+    "email": "thutrang.ops@example.com",
+    "shipping_address": "Tầng 8, 201 Võ Văn Tần, Quận 3, TP.HCM",
+    "customer_tier": "standard"
+  },
+  "items": [
+    {
+      "product_id": "LT-003",
+      "id": "LT-003",
+      "sku": "DEL-INS14-7440",
+      "name": "Dell Inspiron 14",
+      "category": "laptop",
+      "unit_price": 14500000,
+      "price": 14500000,
+      "quantity": 1,
+      "qty": 1,
+      "line_total": 14500000,
+      "total": 14500000
+    },
+    {
+      "product_id": "MN-003",
+      "id": "MN-003",
+      "sku": "XIA-A24I",
+      "name": "Xiaomi A24i",
+      "category": "monitor",
+      "unit_price": 2490000,
+      "price": 2490000,
+      "quantity": 2,
+      "qty": 2,
+      "line_total": 4980000,
+      "total": 4980000
+    },
+    {
+      "product_id": "WC-001",
+      "id": "WC-001",
+      "sku": "LOG-BRIO500",
+      "name": "Logitech Brio 500",
+      "category": "webcam",
+      "unit_price": 2890000,
+      "price": 2890000,
+      "quantity": 1,
+      "qty": 1,
+      "line_total": 2890000,
+      "total": 2890000
+    },
+    {
+      "product_id": "KB-001",
+      "id": "KB-001",
+      "sku": "KEY-K2MAX",
+      "name": "Keychron K2 Max",
+      "category": "keyboard",
+      "unit_price": 2490000,
+      "price": 2490000,
+      "quantity": 1,
+      "qty": 1,
+      "line_total": 2490000,
+      "total": 2490000
+    }
+  ],
+  "pricing": {
+    "subtotal": 24860000,
+    "discount_rate": 0.1,
+    "discount_amount": 2486000,
+    "final_total": 22374000,
+    "currency": "VND"
+  },
+  "discount": {
+    "campaign_code": "FLASH-10",
+    "discount_rate": 0.1,
+    "customer_tier": "standard",
+    "discount_amount": 2486000
+  },
+  "notes": "",
+  "created_at": "2026-06-01"
+}

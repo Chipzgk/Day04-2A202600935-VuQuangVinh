@@ -1,0 +1,47 @@
+{
+  "order_id": "ORD-6F1B429ACD",
+  "customer": {
+    "name": "Phạm Thu Trang",
+    "phone": "0904567812",
+    "email": "thutrang.ops@example.com",
+    "shipping_address": "Tầng 8, 201 Võ Văn Tần, Quận 3, TP.HCM",
+    "customer_tier": "standard"
+  },
+  "items": [
+    {
+      "product_id": "LT-003",
+      "name": "Dell Inspiron 14",
+      "price": 14500000,
+      "quantity": 1
+    },
+    {
+      "product_id": "MN-003",
+      "name": "Xiaomi A24i",
+      "price": 2490000,
+      "quantity": 2
+    },
+    {
+      "product_id": "WC-001",
+      "name": "Logitech Brio 500",
+      "price": 2890000,
+      "quantity": 1
+    },
+    {
+      "product_id": "KB-001",
+      "name": "Keychron K2 Max",
+      "price": 2490000,
+      "quantity": 1
+    }
+  ],
+  "pricing": {
+    "subtotal": 24860000,
+    "discount_amount": 4972000,
+    "final_total": 19888000
+  },
+  "discount": {
+    "campaign_code": "FLASH-20",
+    "discount_rate": 0.2
+  },
+  "notes": "",
+  "created_at": "2026-06-01"
+}

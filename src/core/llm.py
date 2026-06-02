@@ -4,6 +4,7 @@ import json
 import os
 import re
 from typing import Any
+from langchain_openai import ChatOpenAI
 
 from dotenv import load_dotenv
 
@@ -47,6 +48,26 @@ def build_chat_model(
             model=model_name or os.getenv("OLLAMA_MODEL", "qwen3.5:3b"),
             base_url=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"),
             temperature=temperature,
+        )
+    if provider == "openrouter":                          # ← thêm block này
+        from langchain_openai import ChatOpenAI
+
+        return ChatOpenAI(
+            model=model_name or os.getenv("OPENROUTER_MODEL", "google/gemini-2.0-flash-exp:free"),
+            temperature=temperature,
+            openai_api_key=os.getenv("OPENROUTER_API_KEY"),
+            openai_api_base="https://openrouter.ai/api/v1",
+        )
+    elif provider == "openai":
+        from langchain_openai import ChatOpenAI
+        import os
+        from dotenv import load_dotenv
+        # Tự động lấy cấu hình từ biến môi trường (.env) bạn đã set
+        return ChatOpenAI(
+            model=model_name or os.getenv("MODEL", "gpt-4o-mini"),
+            temperature=temperature,
+            base_url=os.getenv("LLM_ENDPOINT"),
+            api_key=os.getenv("API_KEY")
         )
     raise ValueError("This lab supports only the `google` and `ollama` providers.")
 
